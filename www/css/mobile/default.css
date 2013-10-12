@@ -1,0 +1,36 @@
+/*需求列表样式*/
+.mobile_list{}
+.mobile_list li{ background: none; border-bottom: 1px solid #FFFFFF; height: 56px;}
+.mobile_list li .info{ border-bottom: 1px solid #cccccc; overflow: hidden; height: 55px; line-height: 26px; font-size: 16px; padding-left: 5px;}
+.mobile_list li a{border: none; border-bottom: 1px solid #cccccc; height: 55px; text-shadow: none; color: #5f5f5f;line-height: 20px;position: relative; background: url(img/arrow_right.jpg) no-repeat 95% center;}
+.mobile_list li a::after{ content: none;}
+.mobile_list li a .s_id{ color: #0b80ec;font-size: 16px; line-height: 26px; position: absolute; top:0;left:0;}
+.mobile_list li a .s_title{ font-weight: normal; font-size: 16px; line-height: 26px; color: black; padding-left: 40px; margin-right:35px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.mobile_list li a p{ font-weight: normal; box-shadow: none; margin-right: 35px; color: #666666; font-size: 12px; line-height: 18px; font-family: none; padding: 0; height: 36px; overflow: hidden;text-overflow:ellipsis; }
+.mobile_list li a .story_info{ margin-right: 35px; font-size: 12px; font-family: "微软雅黑"; color: #5f5f5f; line-height: 24px;}
+.mobile_list li a .story_info .c_time{ float: right;}
+
+/*需求详细*/
+.story_detail {}
+.story_detail .s_title{ font-size:16px; font-weight:bold; line-height:28px; padding-left: 5px;}
+.story_detail p{ font-family: "宋体"; padding: 0; font-size: 14px; line-height: 18px;padding-left: 5px;}
+.story_detail img{ width:100%;}
+.story_detail h2{ background: #e6e6e6; margin-top:10px; margin-bottom: 5px; height: 24px; color: black; font-size: 14px; line-height: 24px; font-weight: bold; text-shadow: none; border-bottom: 1px solid #dddddd; border-top: 1px solid #dddddd }
+.story_detail .content{ padding: 5px;}
+.story_detail .story_info{ margin-right: 5px; font-size: 12px; font-family: "微软雅黑"; color: #5f5f5f; line-height: 24px; padding-left: 5px;}
+.story_detail .story_info .c_time{ float: right;}
+.comment{ border:1px solid #CCCCCC; background: #ffffff; padding: 8px; margin-bottom: 8px}
+ol li span{ margin-top: 5px; line-height: 24px;}
+
+/*详细页底层按钮*/
+.foot_ctr{ height: 100%; width: 100%; background: #f1f1f1;}
+.foot_ctr input{ height: 30px; width: 40px;}
+/*.ctr_btn{ background: #ffffff; border: 1px solid #cccccc; width: 40px; height: 30px; line-height: 30px; padding:0; margin:0;}*/
+
+/*左侧项目树*/
+#ctr li{padding: 0!important}
+#ctr li .esc_a{ background: #BB0000; border: 1px solid #910000}
+#pro_tree{}
+#pro_tree #tree>li{ height: auto; padding: 3px 0; line-height: 30px; font-weight: bold;}
+#pro_tree #tree>li>ul>li{ padding: 0;}
+#pro_tree #tree a{overflow: hidden; white-space: nowrap;}
